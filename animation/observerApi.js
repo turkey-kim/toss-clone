@@ -1,6 +1,8 @@
 // title-box
 
-let title03 = document.getElementsByClassName("section03__title-container")[0];
+let title03 = document.getElementsByClassName(
+  "consumption__title-container"
+)[0];
 let title04 = document.getElementsByClassName("section04__title-container")[0];
 let title05 = document.getElementsByClassName("section05__title-container")[0];
 let title06 = document.getElementsByClassName("section06__title-container")[0];
@@ -8,15 +10,15 @@ let title07 = document.getElementsByClassName("section07__title-container")[0];
 let title09 = document.getElementsByClassName("section09__title")[0];
 let title10 = document.getElementsByClassName("section10__title-container")[0];
 
-//section03 - variable
+//consumption - variable
 
 let image01 = document.getElementsByClassName(
-  "section03__image-container01"
+  "consumption__image-container01"
 )[0];
 let image02 = document.getElementsByClassName(
-  "section03__image-container02"
+  "consumption__image-container02"
 )[0];
-let sub_desc = document.getElementsByClassName("section03__sub-desc")[0];
+let sub_desc = document.getElementsByClassName("consumption__sub-desc")[0];
 
 //section04 - variable
 
