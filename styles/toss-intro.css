@@ -1,10 +1,10 @@
-.section02 {
+.toss-intro {
   display: flex;
   width: 100vw;
   height: auto;
 }
 
-.section02__main-board {
+.toss-intro__main-board {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
   height: 600px;
 }
 
-.section02__main-text {
+.toss-intro__main-text {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.6;
