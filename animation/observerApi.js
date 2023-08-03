@@ -9,7 +9,9 @@ let title04 = document.getElementsByClassName(
 let title05 = document.getElementsByClassName(
   "section-loan__title-container"
 )[0];
-let title06 = document.getElementsByClassName("section06__title-container")[0];
+let title06 = document.getElementsByClassName(
+  "section-credit__title-container"
+)[0];
 let title07 = document.getElementsByClassName("section07__title-container")[0];
 let title09 = document.getElementsByClassName("section09__title")[0];
 let title10 = document.getElementsByClassName("section10__title-container")[0];
@@ -45,11 +47,13 @@ let section_loan_subText = document.getElementsByClassName(
   "section-loan__sub-desc"
 );
 
-//section06 - variable
+//section-credit - variable
 
-let section06_img = document.getElementsByClassName("section06__desc-img");
+let section_credit_img = document.getElementsByClassName(
+  "section-credit__desc-img"
+);
 
-//section06 - variable
+//section-credit - variable
 
 let section11_title = document.getElementsByClassName(
   "section11__title-container"
@@ -94,10 +98,10 @@ observer.observe(section_loan_text02);
 observer.observe(section_loan_text03);
 observer.observe(section_loan_subText[0]);
 
-observer.observe(section06_img[0]);
-observer.observe(section06_img[1]);
-observer.observe(section06_img[2]);
-observer.observe(section06_img[3]);
+observer.observe(section_credit_img[0]);
+observer.observe(section_credit_img[1]);
+observer.observe(section_credit_img[2]);
+observer.observe(section_credit_img[3]);
 
 observer.observe(section11_title[0]);
 observer.observe(section11_detail[0]);
