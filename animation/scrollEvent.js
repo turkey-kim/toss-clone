@@ -1,4 +1,6 @@
-let section07_icon = document.getElementsByClassName("section07__icon");
+let section_invest_icon = document.getElementsByClassName(
+  "section-invest__icon"
+);
 
 let section08_margin = document.getElementsByClassName("section08__margin");
 
@@ -10,12 +12,12 @@ let section09_img04 = document.getElementById("section09__image-04");
 // scroll Event
 window.addEventListener("scroll", function () {
   if (window.scrollY > 8800 && window.scrollY < 10690) {
-    section07_icon[2].style.opacity = (1 / 200) * window.scrollY - 45;
-    section07_icon[3].style.opacity = (1 / 200) * window.scrollY - 45;
-    section07_icon[1].style.opacity = (1 / 200) * window.scrollY - 46;
-    section07_icon[4].style.opacity = (1 / 200) * window.scrollY - 46;
-    section07_icon[0].style.opacity = (1 / 200) * window.scrollY - 47;
-    section07_icon[5].style.opacity = (1 / 200) * window.scrollY - 47;
+    section_invest_icon[2].style.opacity = (1 / 200) * window.scrollY - 45;
+    section_invest_icon[3].style.opacity = (1 / 200) * window.scrollY - 45;
+    section_invest_icon[1].style.opacity = (1 / 200) * window.scrollY - 46;
+    section_invest_icon[4].style.opacity = (1 / 200) * window.scrollY - 46;
+    section_invest_icon[0].style.opacity = (1 / 200) * window.scrollY - 47;
+    section_invest_icon[5].style.opacity = (1 / 200) * window.scrollY - 47;
   }
 
   section08_margin[0].style.width = `${-(1 / 36) * window.scrollY + 294}%`;
