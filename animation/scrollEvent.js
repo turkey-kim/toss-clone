@@ -2,14 +2,22 @@ let section_invest_icon = document.getElementsByClassName(
   "section-invest__icon"
 );
 
-let section09_margin = document.getElementsByClassName(
-  "section09__header__margin"
+let section_service_margin = document.getElementsByClassName(
+  "section-service__header-margin"
 );
 
-let section09_img01 = document.getElementById("section09__image-01");
-let section09_img02 = document.getElementById("section09__image-02");
-let section09_img03 = document.getElementById("section09__image-03");
-let section09_img04 = document.getElementById("section09__image-04");
+let section_service_img01 = document.getElementById(
+  "section-service__image-01"
+);
+let section_service_img02 = document.getElementById(
+  "section-service__image-02"
+);
+let section_service_img03 = document.getElementById(
+  "section-service__image-03"
+);
+let section_service_img04 = document.getElementById(
+  "section-service__image-04"
+);
 
 // scroll Event
 window.addEventListener("scroll", function () {
@@ -22,11 +30,15 @@ window.addEventListener("scroll", function () {
     section_invest_icon[5].style.opacity = (1 / 200) * window.scrollY - 47;
   }
 
-  section09_margin[0].style.width = `${-(1 / 36) * window.scrollY + 294}%`;
-  section09_margin[1].style.width = `${-(1 / 36) * window.scrollY + 294}%`;
+  section_service_margin[0].style.width = `${
+    -(1 / 36) * window.scrollY + 294
+  }%`;
+  section_service_margin[1].style.width = `${
+    -(1 / 36) * window.scrollY + 294
+  }%`;
 
-  section09_img01.style.opacity = (1 / 800) * this.window.scrollY - 14;
-  section09_img02.style.opacity = (1 / 800) * this.window.scrollY - 15.6;
-  section09_img03.style.opacity = (1 / 800) * this.window.scrollY - 16;
-  section09_img04.style.opacity = (1 / 800) * this.window.scrollY - 17;
+  section_service_img01.style.opacity = (1 / 800) * this.window.scrollY - 14;
+  section_service_img02.style.opacity = (1 / 800) * this.window.scrollY - 15.6;
+  section_service_img03.style.opacity = (1 / 800) * this.window.scrollY - 16;
+  section_service_img04.style.opacity = (1 / 800) * this.window.scrollY - 17;
 });

@@ -15,7 +15,7 @@ let title06 = document.getElementsByClassName(
 let title07 = document.getElementsByClassName(
   "section-invest__title-container"
 )[0];
-let title09 = document.getElementsByClassName("section09__title")[0];
+let title09 = document.getElementsByClassName("section-service__title")[0];
 let title10 = document.getElementsByClassName("section10__title-container")[0];
 
 //section-consume - variable
