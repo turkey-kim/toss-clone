@@ -12,7 +12,9 @@ let title05 = document.getElementsByClassName(
 let title06 = document.getElementsByClassName(
   "section-credit__title-container"
 )[0];
-let title07 = document.getElementsByClassName("section07__title-container")[0];
+let title07 = document.getElementsByClassName(
+  "section-invest__title-container"
+)[0];
 let title09 = document.getElementsByClassName("section09__title")[0];
 let title10 = document.getElementsByClassName("section10__title-container")[0];
 

@@ -1,4 +1,4 @@
-.section07 {
+.section-invest {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,7 +7,7 @@
   padding: 250px 0;
 }
 
-.section07__container {
+.section-invest__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@
   width: 100vw;
 }
 
-.section07__title-container {
+.section-invest__title-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -25,7 +25,7 @@
   transition: all 1s;
 }
 
-.section07__title {
+.section-invest__title {
   color: #3182f6;
   font-size: 28px;
   font-weight: 700;
@@ -34,7 +34,7 @@
   margin: 0 0 30px 0;
 }
 
-.section07__sub-title {
+.section-invest__sub-title {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.4;
@@ -42,7 +42,7 @@
   margin: 0px;
 }
 
-.section07__content-container {
+.section-invest__content-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
   margin-bottom: 12px;
 }
 
-.section07__detail-container {
+.section-invest__detail-container {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -64,7 +64,7 @@
   bottom: 8%;
 }
 
-.section07__detail-container > p {
+.section-invest__detail-container > p {
   font-size: 23px;
   font-weight: 600;
   line-height: 1.5;
@@ -72,14 +72,14 @@
   margin: 0px;
 }
 
-.section07__image-container {
+.section-invest__image-container {
   position: absolute;
   width: 1400px;
   height: 400px;
   top: 0;
 }
 
-.section07__iPhone {
+.section-invest__iPhone {
   position: absolute;
   width: 600px;
   height: 936px;
@@ -88,7 +88,7 @@
   z-index: 5;
 }
 
-.section07__image {
+.section-invest__image {
   position: absolute;
   width: 342px;
   height: 749px;
@@ -97,7 +97,7 @@
   z-index: 0;
 }
 
-.section07__icon-container {
+.section-invest__icon-container {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -107,7 +107,7 @@
   bottom: -103%;
 }
 
-.section07__icon {
+.section-invest__icon {
   width: 178px;
   height: 178px;
   margin-left: 1rem;
@@ -115,7 +115,7 @@
   opacity: 1;
 }
 
-.section07__icon-center {
+.section-invest__icon-center {
   width: 178px;
   height: 178px;
   margin-left: 1rem;
@@ -123,7 +123,7 @@
   opacity: 1;
 }
 
-.section07__footer-detail {
+.section-invest__footer-detail {
   font-size: 23px;
   font-weight: 600;
   line-height: 1.5;
