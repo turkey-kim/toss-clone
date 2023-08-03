@@ -1,4 +1,4 @@
-.main-section {
+.section-main {
   display: flex;
   justify-content: center;
   background: url("../assets/images/new_main.png") no-repeat;
@@ -7,7 +7,7 @@
   width: 100vw;
 }
 
-.main-section__main-board {
+.section-main__main-board {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   background: #4e5968;
 }
 
-.main-section__button-image {
+.section-main__button-image {
   width: 24px;
   height: 24px;
   margin-right: 3px;
