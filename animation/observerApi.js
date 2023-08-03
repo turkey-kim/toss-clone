@@ -3,7 +3,9 @@
 let title03 = document.getElementsByClassName(
   "section-consume__title-container"
 )[0];
-let title04 = document.getElementsByClassName("section04__title-container")[0];
+let title04 = document.getElementsByClassName(
+  "section-remit__title-container"
+)[0];
 let title05 = document.getElementsByClassName("section05__title-container")[0];
 let title06 = document.getElementsByClassName("section06__title-container")[0];
 let title07 = document.getElementsByClassName("section07__title-container")[0];
@@ -20,13 +22,13 @@ let image02 = document.getElementsByClassName(
 )[0];
 let sub_desc = document.getElementsByClassName("section-consume__sub-desc")[0];
 
-//section04 - variable
+//section-remit - variable
 
-let section04_text = document.getElementsByClassName(
-  "section04__sub-text-container"
+let section_remit_text = document.getElementsByClassName(
+  "section-remit__sub-text-container"
 );
-let section04_img = document.getElementsByClassName(
-  "section04__sub-image-container"
+let section_remit_img = document.getElementsByClassName(
+  "section-remit__sub-image-container"
 );
 
 //section05 - variable
@@ -75,12 +77,12 @@ observer.observe(image01);
 observer.observe(image02);
 observer.observe(sub_desc);
 
-observer.observe(section04_text[0]);
-observer.observe(section04_text[1]);
-observer.observe(section04_text[2]);
-observer.observe(section04_img[0]);
-observer.observe(section04_img[1]);
-observer.observe(section04_img[2]);
+observer.observe(section_remit_text[1]);
+observer.observe(section_remit_text[0]);
+observer.observe(section_remit_text[2]);
+observer.observe(section_remit_img[0]);
+observer.observe(section_remit_img[1]);
+observer.observe(section_remit_img[2]);
 
 observer.observe(section05_img[0]);
 observer.observe(section05_text01);
