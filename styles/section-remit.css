@@ -23,10 +23,6 @@
   height: 1800px;
 }
 
-.section-remit__title-container {
-  opacity: 0;
-  transition: all 3s;
-}
 .section-remit__title {
   font-size: 28px;
   font-weight: 700;
@@ -58,8 +54,6 @@
   align-items: flex-start;
   justify-content: center;
   width: 47%;
-  opacity: 0;
-  transition: all 1s;
 }
 
 .section-remit__sub-text-container > p {

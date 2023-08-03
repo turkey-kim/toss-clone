@@ -23,8 +23,6 @@
 .section-consume__title-container {
   z-index: 5;
   width: 100%;
-  opacity: 0;
-  transition: all 1s;
 }
 
 .section-consume__title {
@@ -49,9 +47,6 @@
   height: 936px;
   top: 5%;
   align-self: flex-end;
-  opacity: 0;
-  transition: all 1s;
-  transition-delay: 0.1s;
 }
 
 .section-consume__iPhone01 {
@@ -77,9 +72,6 @@
   height: 936px;
   top: 30%;
   align-self: flex-start;
-  opacity: 0;
-  transition: all 1s;
-  transition-delay: 0.3s;
 }
 
 .section-consume__iPhone02 {
@@ -105,7 +97,4 @@
   font-weight: 500;
   color: rgb(51, 61, 75);
   line-height: 1.5;
-  opacity: 0;
-  transition: all 1s;
-  transition-delay: 0.25s;
 }

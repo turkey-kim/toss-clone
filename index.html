@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="styles/section-etc.css" />
     <link rel="stylesheet" href="styles/section-business.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <style>
+      /* animation-target style */
+      .fadeout-target {
+        opacity: 0;
+        transition: all 1s;
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -80,7 +87,7 @@
       <section class="section-consume">
         <div class="section-consume__container">
           <div class="section-consume__inner-container">
-            <div class="section-consume__title-container">
+            <div class="section-consume__title-container fadeout-target">
               <h1 class="section-consume__title">홈 · 소비</h1>
               <h2 class="section-consume__desc">
                 내 돈 관리, <br />
@@ -88,7 +95,7 @@
                 똑똑하게
               </h2>
             </div>
-            <div class="section-consume__image-container01">
+            <div class="section-consume__image-container01 fadeout-target">
               <img
                 class="section-consume__iPhone01"
                 src="assets/images/iPhone_frame.png"
@@ -98,7 +105,7 @@
                 src="assets/images/section-consume_home01.png"
               />
             </div>
-            <div class="section-consume__image-container02">
+            <div class="section-consume__image-container02 fadeout-target">
               <img
                 class="section-consume__iPhone02"
                 src="assets/images/iPhone_frame.png"
@@ -108,7 +115,7 @@
                 src="assets/images/section-consume_home02.png"
               />
             </div>
-            <p class="section-consume__sub-desc">
+            <p class="section-consume__sub-desc fadeout-target">
               토스에 계좌와 카드를 연결해 보세요.<br />
               계좌 잔액, 대출·투자 내역은 기본,<br />
               일자별 소비와 수입까지 한 번에 볼 수 있어요.
@@ -120,7 +127,7 @@
       <section class="section-remit">
         <div class="section-remit__container">
           <div class="section-remit__inner-container">
-            <div class="section-remit__title-container">
+            <div class="section-remit__title-container fadeout-target">
               <h1 class="section-remit__title">송금</h1>
               <h2 class="section-remit__desc">
                 간편하고 안전하게<br />
@@ -129,7 +136,7 @@
               </h2>
             </div>
             <div class="section-remit__sub-container">
-              <div class="section-remit__sub-text-container">
+              <div class="section-remit__sub-text-container fadeout-target">
                 <p>평생 무료 송금</p>
                 <p>
                   토스 평생 무료송금으로<br />
@@ -140,7 +147,7 @@
                   이제 토스와 함께 수수료 걱정 없이 송금하세요.
                 </p>
               </div>
-              <div class="section-remit__sub-image-container">
+              <div class="section-remit__sub-image-container fadeout-target">
                 <img
                   class="section-remit__sub-image"
                   src="assets/images/section-remit_01.png"
@@ -148,13 +155,13 @@
               </div>
             </div>
             <div class="section-remit__sub-container">
-              <div class="section-remit__sub-image-container">
+              <div class="section-remit__sub-image-container fadeout-target">
                 <img
                   class="section-remit__sub-image"
                   src="assets/images/section-remit_02.png"
                 />
               </div>
-              <div class="section-remit__sub-text-container">
+              <div class="section-remit__sub-text-container fadeout-target">
                 <p>사기계좌 조회</p>
                 <p>
                   송금 전 사기 내역 조회로<br />
@@ -168,7 +175,7 @@
               </div>
             </div>
             <div class="section-remit__sub-container">
-              <div class="section-remit__sub-text-container">
+              <div class="section-remit__sub-text-container fadeout-target">
                 <p>자동이체 예약</p>
                 <p>
                   은행 점검 시간,<br />
@@ -179,7 +186,7 @@
                   점검 시간이 끝나면 토스가 알아서 송금해드릴게요.
                 </p>
               </div>
-              <div class="section-remit__sub-image-container">
+              <div class="section-remit__sub-image-container fadeout-target">
                 <img
                   class="section-remit__sub-image"
                   src="assets/images/section-remit_03.png"
@@ -193,7 +200,7 @@
       <section class="section-loan">
         <div class="section-loan__container">
           <div class="section-loan__inner-container-01">
-            <div class="section-loan__title-container">
+            <div class="section-loan__title-container fadeout-target">
               <h1>대출</h1>
               <h2>
                 여러 은행의 조건을 <br />
@@ -201,7 +208,7 @@
                 확인해보세요
               </h2>
             </div>
-            <div class="section-loan__image-container">
+            <div class="section-loan__image-container fadeout-target">
               <img
                 class="section-loan__iPhone"
                 src="assets/images/iPhone_frame.png"
@@ -227,7 +234,7 @@
           <span id="section-loan__desc-03"
             ><span>부담은 </span><span style="color: #d1d6db">적게,</span></span
           >
-          <p class="section-loan__sub-desc">
+          <p class="section-loan__sub-desc fadeout-target">
             앉은 자리에서 여러 은행의 한도와 금리를 비교하고 <br />
             내게 꼭 맞는 대출을 찾아보세요. <br />
             신용, 비상금, 대환, 주택담보대출 모두 가능해요.
@@ -237,7 +244,7 @@
 
       <section class="section-credit">
         <div class="section-credit__container">
-          <div class="section-credit__title-container">
+          <div class="section-credit__title-container fadeout-target">
             <h1 class="section-credit__title">신용</h1>
             <h2 class="section-credit__sub-title">
               금융 생활의 첫 걸음,<br />
@@ -248,7 +255,7 @@
           <div class="section-credit__desc-container">
             <div class="section-credit__desc-01">
               <img
-                class="section-credit__desc-img"
+                class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-01-check.png"
               />
               <h1 class="section-credit__desc-title">내 신용점수</h1>
@@ -260,7 +267,7 @@
             </div>
             <div class="section-credit__desc-02">
               <img
-                class="section-credit__desc-img"
+                class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-02-upgrade.png"
               />
               <h1 class="section-credit__desc-title">신용점수 올리기</h1>
@@ -272,7 +279,7 @@
             </div>
             <div class="section-credit__desc-03">
               <img
-                class="section-credit__desc-img"
+                class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-03-alarm.png"
               />
               <h1 class="section-credit__desc-title">신용관리 알림</h1>
@@ -283,7 +290,7 @@
             </div>
             <div class="section-credit__desc-04">
               <img
-                class="section-credit__desc-img"
+                class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-04-bulb.png"
               />
               <h1 class="section-credit__desc-title">신용관리 팁</h1>
@@ -298,7 +305,7 @@
 
       <section class="section-invest">
         <div class="section-invest__container">
-          <div class="section-invest__title-container">
+          <div class="section-invest__title-container fadeout-target">
             <h1 class="section-invest__title">투자</h1>
             <h2 class="section-invest__sub-title">
               투자,<br />
@@ -375,7 +382,7 @@
 
         <div class="section-service__container">
           <div class="section-service__inner-container">
-            <h1 class="section-service__title">
+            <h1 class="section-service__title fadeout-target">
               토스로<br />
               나에게 딱 맞게
             </h1>
@@ -446,7 +453,7 @@
 
       <section class="section-etc">
         <div class="section-etc__container">
-          <div class="section-etc__title-container">
+          <div class="section-etc__title-container fadeout-target">
             <h1 class="section-etc__title">알면 좋은 금융</h1>
             <h2 class="section-etc__subtitle">
               이런 서비스도<br />
@@ -507,7 +514,7 @@
             class="section-business__image"
             src="assets/images/section-business-01.jpg"
           />
-          <div class="section-business__title-container">
+          <div class="section-business__title-container fadeout-target">
             <h1 class="section-business__title">사업도 토스와 함께</h1>
             <h2 class="section-business__subtitle">
               사업을 시작하셨나요?<br />
@@ -515,7 +522,7 @@
               이제 토스와 함께 하세요.
             </h2>
           </div>
-          <div class="section-business__contents-bar">
+          <div class="section-business__contents-bar fadeout-target">
             <div class="section-business__content">
               <h2>토스결제</h2>
               <p>
@@ -632,7 +639,7 @@
       </div>
     </footer>
 
-    <script src="animation/observerApi.js"></script>
+    <script src="animation/fadeOut.js"></script>
     <script src="animation/scrollEvent.js"></script>
   </body>
 </html>
