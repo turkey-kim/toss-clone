@@ -6,7 +6,9 @@ let title03 = document.getElementsByClassName(
 let title04 = document.getElementsByClassName(
   "section-remit__title-container"
 )[0];
-let title05 = document.getElementsByClassName("section05__title-container")[0];
+let title05 = document.getElementsByClassName(
+  "section-loan__title-container"
+)[0];
 let title06 = document.getElementsByClassName("section06__title-container")[0];
 let title07 = document.getElementsByClassName("section07__title-container")[0];
 let title09 = document.getElementsByClassName("section09__title")[0];
@@ -31,15 +33,17 @@ let section_remit_img = document.getElementsByClassName(
   "section-remit__sub-image-container"
 );
 
-//section05 - variable
+//section-loan - variable
 
-let section05_img = document.getElementsByClassName(
-  "section05__image-container"
+let section_loan_img = document.getElementsByClassName(
+  "section-loan__image-container"
 );
-let section05_text01 = document.getElementById("section05__desc-01");
-let section05_text02 = document.getElementById("section05__desc-02");
-let section05_text03 = document.getElementById("section05__desc-03");
-let section05_subText = document.getElementsByClassName("section05__sub-desc");
+let section_loan_text01 = document.getElementById("section-loan__desc-01");
+let section_loan_text02 = document.getElementById("section-loan__desc-02");
+let section_loan_text03 = document.getElementById("section-loan__desc-03");
+let section_loan_subText = document.getElementsByClassName(
+  "section-loan__sub-desc"
+);
 
 //section06 - variable
 
@@ -84,11 +88,11 @@ observer.observe(section_remit_img[0]);
 observer.observe(section_remit_img[1]);
 observer.observe(section_remit_img[2]);
 
-observer.observe(section05_img[0]);
-observer.observe(section05_text01);
-observer.observe(section05_text02);
-observer.observe(section05_text03);
-observer.observe(section05_subText[0]);
+observer.observe(section_loan_img[0]);
+observer.observe(section_loan_text01);
+observer.observe(section_loan_text02);
+observer.observe(section_loan_text03);
+observer.observe(section_loan_subText[0]);
 
 observer.observe(section06_img[0]);
 observer.observe(section06_img[1]);
