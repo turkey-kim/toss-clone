@@ -57,13 +57,13 @@ let section_credit_img = document.getElementsByClassName(
   "section-credit__desc-img"
 );
 
-//section-credit - variable
+//section-business - variable
 
-let section11_title = document.getElementsByClassName(
-  "section11__title-container"
+let section_business_title = document.getElementsByClassName(
+  "section-business__title-container"
 );
-let section11_detail = document.getElementsByClassName(
-  "section11__contents-bar"
+let section_business_detail = document.getElementsByClassName(
+  "section-business__contents-bar"
 );
 
 const changeOpacity = (e) => {
@@ -107,5 +107,5 @@ observer.observe(section_credit_img[1]);
 observer.observe(section_credit_img[2]);
 observer.observe(section_credit_img[3]);
 
-observer.observe(section11_title[0]);
-observer.observe(section11_detail[0]);
+observer.observe(section_business_title[0]);
+observer.observe(section_business_detail[0]);
