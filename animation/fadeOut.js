@@ -1,7 +1,6 @@
 // fadeout-animation target
 
 const targets = document.getElementsByClassName("fadeout-target");
-
 const section_loan_text01 = document.getElementById("section-loan__desc-01");
 const section_loan_text02 = document.getElementById("section-loan__desc-02");
 const section_loan_text03 = document.getElementById("section-loan__desc-03");
