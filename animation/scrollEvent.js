@@ -14,7 +14,7 @@ const callback = (entries) => {
       entry.target.style.opacity = entry.intersectionRatio;
     } else if (entry.boundingClientRect.top < 0) {
       entry.target.style.opacity = 1;
-      console.log(1);
+      
     }
   });
 };
