@@ -39,7 +39,7 @@
 .section-service__header-margin {
   background-color: white;
   height: 100%;
-  width: 25%;
+  flex : 0.4;
 }
 
 .section-service__container {
