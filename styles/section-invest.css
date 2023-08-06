@@ -110,7 +110,7 @@
   height: 178px;
   margin-left: 1rem;
   z-index: 3;
-  opacity: 1;
+  transition: 0.5s;
 }
 
 .section-invest__icon-center {
