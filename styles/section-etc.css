@@ -81,3 +81,16 @@
 #section-etc__image > img {
   width: 50%;
 }
+
+@media(max-width: 800px){
+  .section-etc__detail-container{
+    flex-direction: column;
+  }
+
+  .section-etc__title{
+    font-size: 1.2rem;
+  }
+  .section-etc__subtitle{
+    font-size: 2rem;
+  }
+}

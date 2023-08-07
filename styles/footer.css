@@ -14,7 +14,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  max-width: 1064px;
+  /* max-width: 1064px; */
   padding: 0 64px;
 }
 
@@ -95,4 +95,10 @@
   height: 3rem;
   margin-right: 1rem;
   cursor: pointer;
+}
+
+@media(max-width: 640px){
+  .footer__contents-container{
+    flex-direction: column;
+  }
 }

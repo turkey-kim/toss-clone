@@ -20,3 +20,9 @@
   line-height: 1.6;
   text-align: center;
 }
+
+@media(max-width: 800px) {
+  .section-intro__main-text{
+    font-size: 1.2rem;
+  }
+}

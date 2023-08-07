@@ -98,3 +98,48 @@
   color: rgb(51, 61, 75);
   line-height: 1.5;
 }
+
+@media(max-width: 800px) {
+
+  .section-consume__container{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .section-consume__title{
+    font-size: 1.2rem;
+  }
+  .section-consume__desc{
+    font-size: 1.8rem;
+  }
+  .section-consume__inner-container {
+    width: 80%;
+    height: 100%;
+  }
+
+  .section-consume__image-container01{
+    display: none;
+  }
+
+  .section-consume__image-container02{
+    top: 10%;
+    
+  }
+
+  .section-consume__iPhone02{
+    width: 500px;
+    height: auto;
+    right: 180px;
+  }
+
+  .section-consume__image-home02{
+    width: 280px;
+    height: auto;
+    left: 35px;
+  }
+
+  .section-consume__sub-desc{
+    font-size: 1rem;
+    
+  }
+}

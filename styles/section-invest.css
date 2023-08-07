@@ -40,6 +40,10 @@
   margin: 0px;
 }
 
+.section-invest__mobile-desc{
+  display: none;
+}
+
 .section-invest__content-container {
   position: relative;
   display: flex;
@@ -127,4 +131,30 @@
   color: rgb(51, 61, 75);
   text-align: center;
   margin: 0px;
+}
+
+@media(max-width: 800px) {
+  .section-invest__title-container{
+    width: auto;
+    align-items: flex-start;
+  }
+  .section-invest__title{
+    font-size: 2rem;
+  }
+  .section-invest__sub-title{
+    font-size: 2.5rem;
+  }
+  .section-invest__detail-container{
+    width: auto;
+  }
+  .section-invest__detail-container > p {
+    display: none;
+  }
+  .section-invest__mobile-desc{
+    display: inline;
+    font-size: 1.5rem;
+    color: rgb(51, 61, 75);
+    font-weight: 600;
+  }
+  
 }

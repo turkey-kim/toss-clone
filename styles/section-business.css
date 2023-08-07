@@ -91,3 +91,25 @@
   font-weight: 400;
   padding: 12px;
 }
+
+@media(max-width: 800px){
+  .section-business__title{
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  .section-business__subtitle{
+    font-size: 1.2rem;
+    margin: 3rem 0;
+  }
+
+  .section-business__contents-bar{
+    flex-direction: column;
+  }
+  .section-business__content{
+    width: 90%;
+    margin: 3rem 0;
+  }
+  .section-business__content > h2{
+    font-size: 1.8rem;
+  }
+}

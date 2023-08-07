@@ -18,6 +18,7 @@
   overflow: hidden;
   background: url("../assets/images/section-service-header.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -170,8 +171,56 @@
 .section-service_desc-03-detail {
   flex: 1;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.5;
   color: #333d4b;
+}
+
+@media(max-width: 800px) {
+  .section-service__header{
+    justify-content: center;
+  }
+  .section-service__header-title{
+    font-size: 3rem;
+  }
+  .section-service__header-margin{
+    display: none;
+  }
+  .section-service__title{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .section-service__desc-01{
+    align-items: center;
+  }.section-service__desc-01 > span{
+    font-size: 1.5rem;
+  }.section-service__desc-01 > p{
+    font-size: 0.8rem;
+  }
+
+  .section-service__desc-container-02{
+    flex-direction: column;
+    align-items: center;
+  }.section-service__desc-02-left > h1{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .section-service__desc-02-right > p {
+    font-size: 1rem;
+  }
+
+  .section-service_desc-container-03{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-service_desc-03-title{
+    font-size: 1.5rem;
+  }
+  .section-service_desc-03-detail{
+    font-size: 1rem;
+  }
+  
+  
 }

@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+    />
+    <title>toss-clone</title>
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/section-main.css" />
@@ -17,13 +18,6 @@
     <link rel="stylesheet" href="styles/section-etc.css" />
     <link rel="stylesheet" href="styles/section-business.css" />
     <link rel="stylesheet" href="styles/footer.css" />
-    <style>
-      /* animation-target style */
-      .fadeout-target {
-        opacity: 0;
-        transition: all 1s;
-      }
-    </style>
   </head>
   <body>
     <header class="header">
@@ -137,12 +131,12 @@
             </div>
             <div class="section-remit__sub-container">
               <div class="section-remit__sub-text-container fadeout-target">
-                <p>평생 무료 송금</p>
-                <p>
+                <h2 class="section-remit__sub-title">평생 무료 송금</h2>
+                <p class="section-remit__sub-main-text">
                   토스 평생 무료송금으로<br />
                   모두의 금융에 자유를
                 </p>
-                <p>
+                <p class="section-remit__sub-desc">
                   누구에게 보내든 은행 상관 없이, <br />
                   이제 토스와 함께 수수료 걱정 없이 송금하세요.
                 </p>
@@ -154,7 +148,8 @@
                 />
               </div>
             </div>
-            <div class="section-remit__sub-container">
+            <div class="section-remit__sub-container"
+            id="section-remit__sub-container-second">
               <div class="section-remit__sub-image-container fadeout-target">
                 <img
                   class="section-remit__sub-image"
@@ -162,26 +157,26 @@
                 />
               </div>
               <div class="section-remit__sub-text-container fadeout-target">
-                <p>사기계좌 조회</p>
-                <p>
+                <h2 class="section-remit__sub-title">사기계좌 조회</h2>
+                <p class="section-remit__sub-main-text">
                   송금 전 사기 내역 조회로<br />
                   피해를 미리 방지할 수 있어요
                 </p>
-                <p>
-                  송금 전 토스가 알아서 사기 내역 조회를 해드려요. <br />
-                  상대방의 연락처 또는 계좌가 사기 계좌인지 조회해 <br />
+                <p class="section-remit__sub-desc">
+                  송금 전 토스가 알아서 사기 내역 조회를 해드려요. <br>
+                  상대방의 연락처 또는 계좌가 사기 계좌인지 조회해 
                   안전하게 송금할 수 있어요.
                 </p>
               </div>
             </div>
             <div class="section-remit__sub-container">
               <div class="section-remit__sub-text-container fadeout-target">
-                <p>자동이체 예약</p>
-                <p>
+                <h2 class="section-remit__sub-title">자동이체 예약</h2>
+                <p class="section-remit__sub-main-text">
                   은행 점검 시간,<br />
                   기다릴 필요 없어요
                 </p>
-                <p>
+                <p class="section-remit__sub-desc">
                   은행 점검 시간에는 자동이체 예약을 이용해보세요.<br />
                   점검 시간이 끝나면 토스가 알아서 송금해드릴게요.
                 </p>
@@ -201,8 +196,8 @@
         <div class="section-loan__container">
           <div class="section-loan__inner-container-01">
             <div class="section-loan__title-container fadeout-target">
-              <h1>대출</h1>
-              <h2>
+              <h1 class="section-loan__title">대출</h1>
+              <h2 class="section-loan__sub-title">
                 여러 은행의 조건을 <br />
                 1분 만에<br />
                 확인해보세요
@@ -217,21 +212,16 @@
                 class="section-loan__image"
                 src="assets/images/section-loan_01.png"
               />
-              <img
-                class="section-loan__image"
-                src="assets/images/section-loan_02.png"
-              />
-              <img
-                class="section-loan__image"
-                src="assets/images/section-loan_03.png"
-              />
             </div>
           </div>
-          <span id="section-loan__desc-01">한도는 높게,</span>
-          <span id="section-loan__desc-02"
+          <span class="section-loan__desc" 
+          id="section-loan__desc-01">한도는 높게,</span>
+          <span class="section-loan__desc" 
+          id="section-loan__desc-02"
             ><span>금리는 </span><span style="color: #8b95a1">낮게,</span></span
           >
-          <span id="section-loan__desc-03"
+          <span class="section-loan__desc" 
+          id="section-loan__desc-03"
             ><span>부담은 </span><span style="color: #d1d6db">적게,</span></span
           >
           <p class="section-loan__sub-desc fadeout-target">
@@ -253,7 +243,7 @@
             </h2>
           </div>
           <div class="section-credit__desc-container">
-            <div class="section-credit__desc-01">
+            <div class="section-credit__desc">
               <img
                 class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-01-check.png"
@@ -261,11 +251,10 @@
               <h1 class="section-credit__desc-title">내 신용점수</h1>
               <p class="section-credit__desc-detail">
                 언제 어디서든, 원할 때 간편하게<br />
-                KCB,NICE 신용점수를 한 곳에서 확인할 수<br />
-                있어요.
+                KCB,NICE 신용점수를 한 곳에서 확인할 수 있어요.
               </p>
             </div>
-            <div class="section-credit__desc-02">
+            <div class="section-credit__desc">
               <img
                 class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-02-upgrade.png"
@@ -273,11 +262,10 @@
               <h1 class="section-credit__desc-title">신용점수 올리기</h1>
               <p class="section-credit__desc-detail">
                 통신비, 일반 납부내역 등의 서류를<br />
-                토스에서 바로 제출해 신용점수를 올릴 수<br />
-                있어요.
+                토스에서 바로 제출해 신용점수를 올릴 수 있어요.
               </p>
             </div>
-            <div class="section-credit__desc-03">
+            <div class="section-credit__desc">
               <img
                 class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-03-alarm.png"
@@ -288,7 +276,7 @@
                 나의 신용점수가 바뀔 때마다 바로 확인하세요.
               </p>
             </div>
-            <div class="section-credit__desc-04">
+            <div class="section-credit__desc">
               <img
                 class="section-credit__desc-img fadeout-target"
                 src="assets/icons/section-credit-04-bulb.png"
@@ -311,6 +299,11 @@
               투자,<br />
               모두가 할 수 있도록
             </h2>
+            <p class="section-invest__mobile-desc">
+              이해하기 쉬운 용어 설명이 필요 없는<br>
+              직접적인 화면구성<br>
+              송금처럼 쉬운 구매 경험 그리고 투자<br>
+              판단에 도움을 주는 콘텐츠까지</p>
           </div>
           <div class="section-invest__content-container">
             <div class="section-invest__detail-container">
@@ -447,8 +440,8 @@
               <p class="section-service_desc-03-detail">
                 집과 자동차의 공통점은 잘 사서, 잘 관리하고, 잘팔아야 한다는
                 것.<br />
-                시세조회부터 아파트 관리비 납부, 자동차 보험료 조회까지 부동산과
-                자동차 관리도 토스에서 시작해보세요.
+                시세조회부터 아파트 관리비 납부, 자동차 보험료 조회까지<br>
+                부동산과 자동차 관리도 토스에서 시작해보세요.
               </p>
             </div>
           </div>
